@@ -30,8 +30,8 @@ const navItems: INavItems = {
     y: 35,
     w: "65px",
   },
-  "/blog": {
-    name: "blog",
+  "/work": {
+    name: "work",
     x: 127,
     y: 69,
     w: "56px",
