@@ -60,8 +60,10 @@ export default function RootLayout({
     <html 
     lang="en"
     className={clsx('font-sans text-black bg-white dark:bg-black dark:text-white')}>
-      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
-        <Sidebar/>
+      <body className="antialiased max-w-4xl mb-40 flex flex-col  mx-4 mt-4 md:mt-20 lg:mt-20 lg:mx-auto">
+         <div className='pb-5'>
+         <Sidebar/>
+         </div>
         <main>
           {children}
         </main>

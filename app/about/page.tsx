@@ -1,54 +1,57 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client"; // Add this line to enable client-side interactivity
+
 import type { Metadata } from "next";
 import {
   GitHubIcon,
   ArrowIcon,
-  TwitterIcon,
-  CodePenIcon,
+  LinkedIn,
+  WhatsAppIcon,
 } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Software Developer | Felix Dusengimana",
+  description: "Software Developer | Fidele Niyomugabo",
 };
 
 export default function AboutPage() {
+  const phoneNumber = '250798366977'; // Add your WhatsApp number here
+
+  const handleWhatsAppRedirect = () => {
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I'm Felix.
+        Hey, I'm Fidele.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
-          I'm the <b>Software Developer</b> <br />
+          I'm a <b>Software Developer</b> <br />
         </p>
 
         <p>
-          More than {new Date().getFullYear() - 2019}+ years of software
-          development, experience with a focus on web and mobile app
-          development. Launched a couple of dozen different apps on multiple
-          platforms. I like to work on challenging problems, especially ones
-          that touch people's lives.
+          With over {new Date().getFullYear() - 2019} years of experience in software development, I specialize in web and mobile app development. I've successfully launched numerous apps across various platforms. I'm passionate about tackling complex challenges, particularly those that make a meaningful impact on people's lives.
         </p>
 
         <div className="flex flex-col gap-2 md:flex-row md:gap-2 mt-8">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/felix__dusenge"
+          <button
+            onClick={handleWhatsAppRedirect}
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
-              <TwitterIcon />
-              <div className="ml-3">Twitter</div>
+              <WhatsAppIcon />
+              <div className="ml-3 font-semibold">WhatsApp</div>
             </div>
             <ArrowIcon />
-          </a>
+          </button>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/felixdusengimana"
+            href="https://github.com/NiyomugaboFidel"
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
@@ -60,12 +63,12 @@ export default function AboutPage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://codepen.io/phelixdusengimana"
+            href="https://www.linkedin.com/in/niyomugabo-fidele-5201312b7"
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
-              <CodePenIcon />
-              <div className="ml-3">Codepen</div>
+              <LinkedIn />
+              <div className="ml-3">LinkedIn</div>
             </div>
             <ArrowIcon />
           </a>

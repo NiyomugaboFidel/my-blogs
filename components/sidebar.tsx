@@ -46,7 +46,7 @@ const navItems: INavItems = {
 
 function Logo() {
   return (
-    <Link aria-label="Felix Dusengimana" href="/">
+    <Link aria-label="Fidele Niyomugabo" href="/">
       <motion.svg
         width="40"
         height="39"
@@ -97,16 +97,16 @@ export default function Navbar() {
   }
 
   return (
-    <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif">
-      <div className="lg:sticky lg:top-20">
-        <div className="ml-2 md:ml-[12px] mb-2 px-4 md:px-0 md:mb-8 space-y-10 flex flex-col md:flex-row items-start ">
+    <aside className=" -mx-4  font-serif">
+      <div className=" flex items-start justify-start">
+        <div className=" px-4  space-y-10 flex flex-col  items-start ">
           <Logo />
         </div>
         <nav
-          className="flex flex-row md:flex-col items-start relative overflow-scroll px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+          className="flex  items-start relative overflow-scroll px-4   fade  scroll-pr-6"
           id="nav"
         >
-          <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+          <div className="flex  space-x-0 pr-10 mb-2 mt-2 ">
             {navItems[pathname] ? (
               <>
                 {/* Desktop version, hidden on mobile, animates y axis */}
@@ -128,7 +128,7 @@ export default function Navbar() {
                   />
                 </div>
                 {/* Mobile version, hidden on desktop, animates x axis */}
-                <div className="block md:hidden">
+                <div className="block ">
                   <motion.div
                     className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
                     layoutId="test"
