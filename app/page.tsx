@@ -40,13 +40,13 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/felixdusengimana"
+            href="https://github.com/Niyomugabofidel"
             className="flex items-center gap-2"
           >
             <CalenderIcon />
             {`started in 2019`}
           </a>
-          <Link href="/blog" className="flex items-center gap-2">
+          <Link href="/work" className="flex items-center gap-2">
             <BioIcon />
             {`software developer`}
           </Link>
@@ -61,10 +61,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/felix__dusenge"
+            href="https://www.linkedin.com/in/niyomugabo-fidele-5201312b7"
           >
             <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            <p className="h-7">follow me on linkedin</p>
           </a>
         </li>
         <li>
@@ -72,10 +72,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://codepen.io/phelixdusengimana"
+            href="https://github.com/Niyomugabofidel"
           >
             <ArrowIcon />
-            <p className="h-7">see my work on codepen</p>
+            <p className="h-7">see my work on GitHub</p>
           </a>
         </li>
         <li>
@@ -83,7 +83,7 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://docs.google.com/document/d/1QIiMGRmwq9YADUY92TnQiLcr7vTMMiAaM_RI6tdgHGE/edit?usp=sharing"
+            href="https://docs.google.com/document/d/19u-w3QnlBRYO4teUwOT-YJSl0wi_KYTN-fR1LmeT4Eo/edit"
           >
             <ArrowIcon />
             <p className="h-7">read my resume</p>

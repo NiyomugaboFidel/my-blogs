@@ -1,9 +1,6 @@
 import React from "react";
-import { getAllblogs } from "lib/mdx";
 import { Metadata } from "next";
 const BlurImage = dynamic(() => import("components/BlurImage"));
-import allBlogs from "./generated";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowIcon } from "@/components/icons";
 
@@ -32,6 +29,30 @@ export const metadata: Metadata = {
 };
 
 export default function Blogs() {
+  const allBlogs = [
+    {
+      title: 'Micro AI',
+      excerpt: "Micro AI is your go-to source for everything related to artificial intelligence. Discover the latest developments, research, and trends in AI technology. Whether you're looking for information on machine learning, neural networks, or AI applications, Micro AI provides comprehensive insights and resources to keep you informed and engaged with the evolving world of AI.",
+      coverImage: '/img/project-1.png',
+      date: '2024-10-03T00:00:00.000Z',
+      link: 'https://micro-ai-ten.vercel.app',
+      ogImage: {
+        url: '/img/project-1.png'
+      }
+    },
+    {
+      title: 'nex-cent',
+      excerpt: "This project is a web application built with React, Tailwind CSS, and Framer Motion. It features a modern, responsive design using Tailwind CSS for styling, while React handles the component-based structure. Framer Motion is used to add smooth animations and interactive elements. The application operates entirely on the client side, with no backend required.",
+      coverImage: '/img/project-2.png',
+      date: '2024-10-03T00:00:00.000Z',
+      link: 'https://nex-cent-jade.vercel.app',
+      ogImage: {
+        url: '/img/project-2.png'
+      }
+    }
+    
+
+]
   return (
     <div>
       {/* 2 grid and one in mobile */}
@@ -47,14 +68,16 @@ export default function Blogs() {
               width={300}
               height={200}
             />
-            <Link href={`/blog/${blog.slug}`} suppressHydrationWarning>
-              <h2 className="font-bold text-lg">{blog.title}</h2>
-              <p className="text-md mt-2">{blog.excerpt}</p>
+            <div className="flex flex-col"  suppressHydrationWarning>
+            <a href={blog.link} className="font-bold text-lg text-gray-800">{blog.title}</a>
+            <a href={blog.link} className="text-md mt-2 text-gray-800">{blog.excerpt}</a>
+           
               <p className="mt-2 text-[12px] text-gray-400">
                 {new Date(blog.date).toLocaleDateString()}
-              </p>
+              </p>  
+        
               {/* read more button */}
-            </Link>
+            </div>
           </div>
         ))}
       </div>
@@ -64,7 +87,7 @@ export default function Blogs() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://dev.to/felixdusengimana"
+            href="https://dev.to/niyo_fidele"
           >
             <ArrowIcon />
             <p className="h-7">i also publish blogs on Dev.to</p>
@@ -74,56 +97,3 @@ export default function Blogs() {
     </div>
   );
 }
-
-// export async function generateStaticParams() {
-//   const allBlogs = getAllblogs([
-//     'slug',
-//   ])
-//   return allBlogs.map((post) => ({
-//     slug: post.slug,
-//   }));
-// }
-
-// export async function generateMetadata({
-//   params,
-// }: {params: any}): Promise<Metadata | undefined> {
-//   const allBlogs = getAllblogs()
-//   const post = allBlogs.find((post) => post.slug === params.slug);
-//   if (!post) {
-//     return;
-//   }
-
-//   const {
-//     title,
-//     publishedAt: publishedTime,
-//     summary: description,
-//     image,
-//     slug,
-//   } = post;
-//   const ogImage = image
-//     ? `https://feldux.com${image}`
-//     : `https://feldux.com/api/og?title=${title}`;
-
-//   return {
-//     title,
-//     description,
-//     openGraph: {
-//       title,
-//       description,
-//       type: 'article',
-//       publishedTime,
-//       url: `https://feldux.com/blog/${slug}`,
-//       images: [
-//         {
-//           url: ogImage,
-//         },
-//       ],
-//     },
-//     twitter: {
-//       card: 'summary_large_image',
-//       title,
-//       description,
-//       images: [ogImage],
-//     },
-//   };
-// }
