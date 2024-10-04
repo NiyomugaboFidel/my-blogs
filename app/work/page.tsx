@@ -3,6 +3,7 @@ import { Metadata } from "next";
 const BlurImage = dynamic(() => import("components/BlurImage"));
 import dynamic from "next/dynamic";
 import { ArrowIcon } from "@/components/icons";
+import { allBlogs } from "./blogs";
 
 const POSTS_PER_PAGE = 5;
 
@@ -29,38 +30,15 @@ export const metadata: Metadata = {
 };
 
 export default function Blogs() {
-  const allBlogs = [
-    {
-      title: 'Micro AI',
-      excerpt: "Micro AI is your go-to source for everything related to artificial intelligence. Discover the latest developments, research, and trends in AI technology. Whether you're looking for information on machine learning, neural networks, or AI applications, Micro AI provides comprehensive insights and resources to keep you informed and engaged with the evolving world of AI.",
-      coverImage: '/img/project-1.png',
-      date: '2024-10-03T00:00:00.000Z',
-      link: 'https://micro-ai-ten.vercel.app',
-      ogImage: {
-        url: '/img/project-1.png'
-      }
-    },
-    {
-      title: 'nex-cent',
-      excerpt: "This project is a web application built with React, Tailwind CSS, and Framer Motion. It features a modern, responsive design using Tailwind CSS for styling, while React handles the component-based structure. Framer Motion is used to add smooth animations and interactive elements. The application operates entirely on the client side, with no backend required.",
-      coverImage: '/img/project-2.png',
-      date: '2024-10-03T00:00:00.000Z',
-      link: 'https://nex-cent-jade.vercel.app',
-      ogImage: {
-        url: '/img/project-2.png'
-      }
-    }
-    
 
-]
   return (
     <div>
       {/* 2 grid and one in mobile */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-10">
         {allBlogs.map((blog, index) => (
           <div
             key={index}
-            className="text-white max-w-[300px] overflow-hidden flex flex-col justify-between"
+            className="text-white max-w-[300px] overflow-hidden flex flex-col justify-between gap-[15px]"
           >
             <BlurImage
               image={blog.coverImage}
