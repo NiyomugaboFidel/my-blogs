@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client"; // Add this line to enable client-side interactivity
-
-import type { Metadata } from "next";
 import {
   GitHubIcon,
   ArrowIcon,
@@ -9,17 +7,17 @@ import {
   WhatsAppIcon,
 } from "@/components/icons";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "Software Developer | Fidele Niyomugabo",
-};
+// export const metadata: any = {
+//   title: "About",
+//   description: "Software Developer | Fidele Niyomugabo",
+// };
 
 export default function AboutPage() {
-  const phoneNumber = '250798366977'; // Add your WhatsApp number here
+  const phoneNumber = "250798366977"; // Add your WhatsApp number here
 
   const handleWhatsAppRedirect = () => {
     const url = `https://wa.me/${phoneNumber}`;
-    window.open(url, '_blank');
+    window.open(url, "_blank");
   };
 
   return (
@@ -34,7 +32,11 @@ export default function AboutPage() {
         </p>
 
         <p>
-          With over {new Date().getFullYear() - 2019} years of experience in software development, I specialize in web and mobile app development. I've successfully launched numerous apps across various platforms. I'm passionate about tackling complex challenges, particularly those that make a meaningful impact on people's lives.
+          With over {new Date().getFullYear() - 2019} years of experience in
+          software development, I specialize in web and mobile app development.
+          I've successfully launched numerous apps across various platforms. I'm
+          passionate about tackling complex challenges, particularly those that
+          make a meaningful impact on people's lives.
         </p>
 
         <div className="flex flex-col gap-2 md:flex-row md:gap-2 mt-8">

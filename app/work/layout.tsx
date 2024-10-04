@@ -1,19 +1,18 @@
-import { Metadata } from "next";
-import { Inter } from 'next/font/google';
+import { Inter } from "next/font/google";
 
-export const metadata: Metadata = {
-    title: 'Blog',
-    description: 'Read my thoughts on software development, design, and more.',
+export const metadata: any = {
+  title: "Blog",
+  description: "Read my thoughts on software development, design, and more.",
 };
 
 const inter = Inter({
-    subsets: ['latin']
-})
+  subsets: ["latin"],
+});
 
 export default function BlogLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-    return <section>{children}</section>;
+  return <section>{children}</section>;
 }

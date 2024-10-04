@@ -1,4 +1,16 @@
-export const allBlogs = [
+interface Blog {
+    title: string;
+    date: string;
+    slug?: string; // Optional if not included in your blogs
+    coverImage: string;
+    excerpt: string;
+    link: string;
+    ogImage: {
+      url: string;
+    };
+  }
+  
+  export const allBlogs: Blog[] = [
     {
       title: 'Micro AI',
       excerpt: "Micro AI is your go-to source for everything related to artificial intelligence. Discover the latest developments, research, and trends in AI technology. Whether you're looking for information on machine learning, neural networks, or AI applications, Micro AI provides comprehensive insights and resources to keep you informed and engaged with the evolving world of AI.",
@@ -20,16 +32,14 @@ export const allBlogs = [
       }
     },
     {
-        title: 'Kaptagat Education Center Kenya',
-        excerpt: "A modern, user-friendly web application developed for Kaptagat Education Center in Kenya. Built with NextJS 14, Tailwind CSS, and Framer Motion, the site offers a responsive design, smooth animations, and interactive elements. Tailored for seamless navigation, it ensures an engaging online experience for students and parents alike.",
-        coverImage: '/images/blogs/school-web.png',
-        date: '2024-01-03T00:00:00.000Z',
-        link: 'https://school-hazel-nu.vercel.app',
-        ogImage: {
-          url: '/img/project-2.png'
-        }
+      title: 'Kaptagat Education Center Kenya',
+      excerpt: "A modern, user-friendly web application developed for Kaptagat Education Center in Kenya. Built with NextJS 14, Tailwind CSS, and Framer Motion, the site offers a responsive design, smooth animations, and interactive elements. Tailored for seamless navigation, it ensures an engaging online experience for students and parents alike.",
+      coverImage: '/images/blogs/school-web.png',
+      date: '2024-01-03T00:00:00.000Z',
+      link: 'https://school-hazel-nu.vercel.app',
+      ogImage: {
+        url: '/img/project-2.png'
       }
-      
-    
-
-]
+    }
+  ];
+  

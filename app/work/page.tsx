@@ -1,5 +1,4 @@
 import React from "react";
-import { Metadata } from "next";
 const BlurImage = dynamic(() => import("components/BlurImage"));
 import dynamic from "next/dynamic";
 import { ArrowIcon } from "@/components/icons";
@@ -7,24 +6,10 @@ import { allBlogs } from "./blogs";
 
 const POSTS_PER_PAGE = 5;
 
-interface Blog {
-  title: string;
-  date: string;
-  slug: string;
-  coverImage: string;
-  excerpt: string;
-}
 
-interface BlogsProps {
-  initialDisplayPosts: Array<Blog>;
-  posts: Array<Blog>;
-  pagination: {
-    currentPage: number;
-    totalPages: number;
-  };
-}
 
-export const metadata: Metadata = {
+
+export const metadata:any = {
   title: "Blog",
   description: "Read my thoughts on software development, design, and more.",
 };

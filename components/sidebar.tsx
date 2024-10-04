@@ -103,7 +103,7 @@ export default function Navbar() {
           <Logo />
         </div>
         <nav
-          className="flex  items-start relative overflow-scroll px-4   fade  scroll-pr-6"
+          className="flex  items-start relative overflow-hidden px-4   fade  scroll-pr-6"
           id="nav"
         >
           <div className="flex  space-x-0 pr-10 mb-2 mt-2 ">

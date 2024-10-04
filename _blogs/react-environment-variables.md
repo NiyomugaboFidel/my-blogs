@@ -1,11 +1,3 @@
----
-title: 'Environment Variables in ReactJS.'
-excerpt: 'If you’re using ReactJS and you are accessing some endpoint APIs, you may have come across environment variables. In this tutorial, I will take you through how to use environment variables.'
-coverImage: '/images/blogs/environment-variables.png'
-date: '2021-04-10T05:35:07.322Z'
-ogImage:
-  url: '/images/blogs/environment-variables/cover.jpg'
----
 
 If you’re using ReactJS and you are accessing some endpoint APIs, you may have come across environment variables. In this tutorial, I will take you through how to use environment variables.
 
