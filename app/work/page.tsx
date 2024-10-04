@@ -41,13 +41,14 @@ export default function Blogs() {
             className="text-white max-w-[300px] overflow-hidden flex flex-col justify-between gap-[15px]"
           >
             <BlurImage
+              link={blog.link}
               image={blog.coverImage}
               alt={blog.title}
               width={300}
               height={200}
             />
             <div className="flex flex-col"  suppressHydrationWarning>
-            <a href={blog.link} className="font-bold text-lg text-gray-800">{blog.title}</a>
+            <a href={blog.link} target="_blank" rel="noopener noreferrer" className="font-bold text-lg text-gray-800">{blog.title}</a>
             <a href={blog.link} className="text-md mt-2 text-gray-800">{blog.excerpt}</a>
            
               <p className="mt-2 text-[12px] text-gray-400">
