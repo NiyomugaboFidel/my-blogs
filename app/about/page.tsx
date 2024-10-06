@@ -6,6 +6,7 @@ import {
   LinkedIn,
   WhatsAppIcon,
 } from "@/components/icons";
+import TechLogos from "@/components/Techlogos";
 
 // export const metadata: any = {
 //   title: "About",
@@ -38,7 +39,7 @@ export default function AboutPage() {
           passionate about tackling complex challenges, particularly those that
           make a meaningful impact on people's lives.
         </p>
-
+      
         <div className="flex flex-col gap-2 md:flex-row md:gap-2 mt-8">
           <button
             onClick={handleWhatsAppRedirect}
@@ -75,6 +76,9 @@ export default function AboutPage() {
             <ArrowIcon />
           </a>
         </div>
+        <div>
+          <TechLogos />
+         </div>
       </div>
     </section>
   );

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://feldux.com/sitemap.xml
+Sitemap: https://fidele.vercel.app/sitemap.xml

@@ -5,222 +5,222 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://feldux.com/</loc>
+  <loc>https://fidele.vercel.app/</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://feldux.com/about</loc>
+  <loc>https://fidele.vercel.app/about</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog</loc>
+  <loc>https://fidele.vercel.app/blog</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://feldux.com/guestbook</loc>
+  <loc>https://fidele.vercel.app/guestbook</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/funding-open-source</loc>
+  <loc>https://fidele.vercel.app/blog/funding-open-source</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/backend</loc>
+  <loc>https://fidele.vercel.app/blog/backend</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/react-frameworks</loc>
+  <loc>https://fidele.vercel.app/blog/react-frameworks</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/javascript</loc>
+  <loc>https://fidele.vercel.app/blog/javascript</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/nextjs-conf-2022-recap</loc>
+  <loc>https://fidele.vercel.app/blog/nextjs-conf-2022-recap</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/dx</loc>
+  <loc>https://fidele.vercel.app/blog/dx</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/developer-experience-examples</loc>
+  <loc>https://fidele.vercel.app/blog/developer-experience-examples</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/heroku</loc>
+  <loc>https://fidele.vercel.app/blog/heroku</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/devrel-at-vercel</loc>
+  <loc>https://fidele.vercel.app/blog/devrel-at-vercel</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/image-gallery-supabase-tailwind-nextjs</loc>
+  <loc>https://fidele.vercel.app/blog/image-gallery-supabase-tailwind-nextjs</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/fundamentals-of-video</loc>
+  <loc>https://fidele.vercel.app/blog/fundamentals-of-video</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/hypergrowth</loc>
+  <loc>https://fidele.vercel.app/blog/hypergrowth</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/rust</loc>
+  <loc>https://fidele.vercel.app/blog/rust</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/mysql-planetscale</loc>
+  <loc>https://fidele.vercel.app/blog/mysql-planetscale</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/career</loc>
+  <loc>https://fidele.vercel.app/blog/career</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/head-of-devrel</loc>
+  <loc>https://fidele.vercel.app/blog/head-of-devrel</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/serverless-redis-nextjs</loc>
+  <loc>https://fidele.vercel.app/blog/serverless-redis-nextjs</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/react-state-management</loc>
+  <loc>https://fidele.vercel.app/blog/react-state-management</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/fonts</loc>
+  <loc>https://fidele.vercel.app/blog/fonts</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/tailwind</loc>
+  <loc>https://fidele.vercel.app/blog/tailwind</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/css-with-react</loc>
+  <loc>https://fidele.vercel.app/blog/css-with-react</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/spotify-api-nextjs</loc>
+  <loc>https://fidele.vercel.app/blog/spotify-api-nextjs</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/teach-online</loc>
+  <loc>https://fidele.vercel.app/blog/teach-online</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/mdx</loc>
+  <loc>https://fidele.vercel.app/blog/mdx</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/nextjs-sitemap-robots</loc>
+  <loc>https://fidele.vercel.app/blog/nextjs-sitemap-robots</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/mailchimp-next-js</loc>
+  <loc>https://fidele.vercel.app/blog/mailchimp-next-js</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/real-time-post-views</loc>
+  <loc>https://fidele.vercel.app/blog/real-time-post-views</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/style-guides-component-libraries-design-systems</loc>
+  <loc>https://fidele.vercel.app/blog/style-guides-component-libraries-design-systems</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/nextjs-firebase-serverless</loc>
+  <loc>https://fidele.vercel.app/blog/nextjs-firebase-serverless</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/how-to-print-in-react-using-iframes</loc>
+  <loc>https://fidele.vercel.app/blog/how-to-print-in-react-using-iframes</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/turborepo-design-system-monorepo</loc>
+  <loc>https://fidele.vercel.app/blog/turborepo-design-system-monorepo</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/technical-recruiting-is-broken</loc>
+  <loc>https://fidele.vercel.app/blog/technical-recruiting-is-broken</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/things-ive-learned-building-nextjs-apps</loc>
+  <loc>https://fidele.vercel.app/blog/things-ive-learned-building-nextjs-apps</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/why-i-create-open-source-software</loc>
+  <loc>https://fidele.vercel.app/blog/why-i-create-open-source-software</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/content-marketing-personal-brand</loc>
+  <loc>https://fidele.vercel.app/blog/content-marketing-personal-brand</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/how-stripe-designs-beautiful-websites</loc>
+  <loc>https://fidele.vercel.app/blog/how-stripe-designs-beautiful-websites</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/loading-placeholder-with-sass</loc>
+  <loc>https://fidele.vercel.app/blog/loading-placeholder-with-sass</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/beginners-guide-to-the-programming-portfolio</loc>
+  <loc>https://fidele.vercel.app/blog/beginners-guide-to-the-programming-portfolio</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/blog/space-invaders-with-python</loc>
+  <loc>https://fidele.vercel.app/blog/space-invaders-with-python</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://feldux.com/uses</loc>
+  <loc>https://fidele.vercel.app/uses</loc>
   <lastmod>2023-02-30T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
