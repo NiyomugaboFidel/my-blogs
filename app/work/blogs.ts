@@ -164,15 +164,15 @@ import greentor from "../../public/images/img/greetor.png"
         url: project11
       }
     },
-    {
-      title: 'Green Realtor revamped website',
-      excerpt: 'Green Realtor\'s revamped website helps clients know more about the services and offerings of Green Realtor. It focuses on providing a user-friendly interface and better property showcasing.',
-      coverImage: greentor,
-      date: '2023-10-05T00:00:00.000Z',  // Q4 of 2023
-      link: 'https://green-realtors.strettch.com/',
-      ogImage: {
-        url: greentor
-      }
-    }
+    // {
+    //   title: 'Green Realtor revamped website',
+    //   excerpt: 'Green Realtor\'s revamped website helps clients know more about the services and offerings of Green Realtor. It focuses on providing a user-friendly interface and better property showcasing.',
+    //   coverImage: greentor,
+    //   date: '2023-10-05T00:00:00.000Z',  // Q4 of 2023
+    //   link: 'https://green-realtors.strettch.com/',
+    //   ogImage: {
+    //     url: greentor
+    //   }
+    // }
   ];
   
